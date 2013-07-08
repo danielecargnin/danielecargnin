@@ -1,0 +1,161 @@
+* {
+	outline: none;
+}
+
+.content{
+	margin: 0 auto;
+	width: 1120px;
+}
+
+@font-face { 
+	font-family: Candara;
+	src: local('../font/Candara'),   /* use locally available Gentium */
+    url('../font/Candara.ttf'); /* otherwise, download it */
+}
+
+@font-face { 
+	font-family: Calibri;
+	src: local('../font/CALIBRI.TTF'),   /* use locally available Gentium */
+    url('../font/CALIBRI.TTF'); /* otherwise, download it */
+}
+
+body {
+	margin: 0;
+	background: #EEE url('../images/dani_back.png');
+	color: #000;
+	font: 11px Helvetica, sans-serif;
+	min-width: 800px;
+}
+
+a {
+	text-decoration: none;
+	-webkit-transition: color .2s linear;
+	-moz-transition: color .2s linear;
+}
+
+a images {
+    border: none;
+}
+
+#header {
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	background: #2F4F4F;
+	margin-top: 100px;
+}
+
+span.opacity {
+	opacity:0.40;
+	-moz-opacity: 0.40;
+	filter: alpha(opacity=40);
+}
+
+#conteudo {
+	float: left;
+	width: 100%;
+	height: 688px;
+	margin-top: 27px;
+	background: #FFF url('../images/fundo2.png');
+}
+
+#conteudo ul {
+	float: right;
+	font: 20px 'Candara', serif;
+    width: 31%;
+    list-style: none;
+	padding: 0;
+	margin-top: 30px;
+}
+
+#conteudo li {
+	width: 12%;
+	color: #2F4F4F;
+	margin-left: 25px;
+	text-shadow: -1px 0 #FFF;
+}
+
+#conteudo ul li { display: inline; }
+
+#conteudo li a {
+	color: #2F4F4F;
+	text-decoration: none;
+	-webkit-transition: color .2s linear;
+	-moz-transition: color .2s linear;
+}
+
+#conteudo li a:hover {
+	color: #808080;
+}
+
+#projetos {
+	float: left;
+	width: 75%;
+	height: 500px;
+	margin: 160px 72px 0;
+}
+
+.projetos_in {
+	float: left;
+	width: 100%;
+	height: 106px;
+}
+
+.projetos_img {
+	float: left;
+	margin-top: 12px;
+	margin-left: 3px;
+}
+
+.projetos_title {
+	float: left;
+	width: 70%;
+	font: 32px 'Calibri', sans-serif;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 10px;
+	text-shadow: 1px 0 #FFF;
+}
+
+.projetos_description {
+	float: left;
+	width: 70%;
+	font: 15px 'Calibri', sans-serif;
+	margin-top: 5px;
+	margin-left: 11px;
+	text-shadow: 1px 0 #FFF;
+}
+
+h1 {
+	font: 61px 'Candara', serif;
+	color: #FFF;
+	margin: 17px 0 0;
+	text-shadow: -1px -1px #000;
+}
+
+h1 a {
+	color: #FFF;
+}
+
+h2 {
+	font: 21px 'Candara', serif;
+	color: #FFF;
+	margin: 0 6px 0;
+	text-shadow: -1px -1px #000;
+}
+
+h2 a {
+	color: #FFF;
+	opacity:0.40;
+	-moz-opacity: 0.40;
+	filter: alpha(opacity=40);
+	-webkit-transition: color .2s linear;
+	-moz-transition: color .2s linear;
+}
+
+h2 a:hover {
+	color: #FFF;
+	opacity:1.00;
+	-moz-opacity: 1.00;
+	filter: alpha(opacity=100);
+}
